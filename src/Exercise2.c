@@ -9,10 +9,9 @@ Ex:
 |____________________________________|
 */
 
-#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include <stdio.h>
 int main(int argc, char *argv[]){
     int max = -999;
     int min = 999
@@ -48,10 +47,10 @@ int main(int argc, char *argv[]){
 
 
 
-    printf("Input: ");
+    //printf("Input: ");
     for(int i = 1; i < argc; i ++){
         int num = atoi(argv[i]);
-        printf("%d ", num);
+    //    printf("%d ", num);
     }
 
     printf("\nMax: %d", max);
